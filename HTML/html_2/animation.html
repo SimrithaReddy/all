@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                height: 100px;
+                width: 100px;
+                border: 1px solid;
+            }
+            div:hover{
+                transform: rotate(-140degree);
+            }
+            .scale{
+                height: 100px;
+                width: 100px;
+                border: 1px solid;
+            }
+            .scale:hover{
+                transform: scale(1.2,1.2);
+
+            }
+            section{
+                height: 100px;
+                width: 100px;
+                border: 1px solid red;
+                transition: height 20s width 10s;
+            }
+            section:hover{
+                height: 300px;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+         Rotate
+        </div>
+        <div class="scale">
+            Scale
+        </div>
+        <section>
+            transition
+        </section>
+    </body>
+</html>

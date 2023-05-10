@@ -1,0 +1,14 @@
+#img-container{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-gap: 10px;
+}
+
+#img-container img{
+    height:200px;
+    width:200px;
+}
+
+#img6{
+    visibility: hidden;
+}

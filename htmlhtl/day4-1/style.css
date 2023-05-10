@@ -1,0 +1,30 @@
+.container{
+    max-width: 22%;
+    max-height: 25%;
+    margin-left: 38%;
+    margin-top: 10%;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    color: #ffff;
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px 15px;
+}
+
+#start{
+    margin-right: 10px;
+}
+
+#number{
+    font-size: larger;
+}

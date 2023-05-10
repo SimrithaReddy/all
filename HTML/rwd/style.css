@@ -1,0 +1,134 @@
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: transparent linear-gradient(156deg, #FCF3F3 0%, #FFFFFF 49%, #FAF1F0 100%) 0% 0% no-repeat padding-box;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+header {
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-light {
+    color: #D2A1A2;
+}
+
+.text-dark {
+    color: #393334;
+}
+
+.text-brown {
+    color: #9A6B69;
+}
+
+.text-xxl {
+    font-size: 2.5em;
+}
+
+.text-sm {
+    font-size: .75em;
+}
+
+.text-wide {
+    letter-spacing: .4em;
+}
+
+.logo-container>.logo-circle {
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #E7A09E;
+    margin-top: 3px;
+}
+
+.logo-container>.text-container {
+    float: left;
+    margin-left: 8px;
+    color: #5F5A5A;
+    font-size: .9em;
+    letter-spacing: .6em;
+}
+
+.logo-container>.text-container>span {
+    display: block;
+}
+
+#banner-container {
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+}
+
+#text-container {
+    padding-top: 16px;
+    padding-bottom: 80px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container>input {
+    height: 50px;
+    width: 98%;
+    border: 1px solid #9A6B69;
+    border-radius: 29px;
+    padding-left: 30px;
+    padding-right: 100px;
+    font-size: 1.2em;
+    color: #9A6B69;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.input-container>input:focus {
+    outline: none;
+}
+
+.input-container>button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 95px;
+    background-color: #E7A09E;
+    color: #fff;
+    border-radius: 29px;
+    border: 0;
+    font-size: 2em;
+}
+
+.input-container>button::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border: 2px solid #fff;
+    position: absolute;
+    border-left: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+    top: 18px;
+    left: 40px;
+}

@@ -1,0 +1,25 @@
+Database ------- to store data  ----collection of data
+DBMS -- Database Management system
+
+DBMS -- 2Categories
+
+1)Relational DBMS(SQL)
+2)Non-Relational DBMS(No sql)
+
+Example : Relational DBMS
+Mysql, Oracle, MSSQL, POSTGRESQl, DB2
+
+
+Relational DBMS-----
+Data will be stored in ROW nd  COLUMN
+Tables
+
+In case of Non-Relational DBMS---
+No Standard Database
+Depends to Database to Database
+Example: MangoDB, redis.........
+
+
+Tables      Collections
+Rows          fields
+Column 

@@ -1,0 +1,9 @@
+@media screen and (min-width=576px){
+    #bottom-container{
+        display: flex;
+        flex-wrap:
+        
+        wrap;
+        flex-direction: row;
+    }  
+}

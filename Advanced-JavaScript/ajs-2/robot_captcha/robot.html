@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Captcha</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="img-container">
+
+
+    </div>
+
+
+
+
+
+
+    <script>
+        let selectedTile;
+    let pics = ["img1.jpg","img2.jpg","img3.jpg","img4.jpg","img5.jpg"];
+    console.log(pics)
+        let getRandomNumber = (function(){
+            let nums = [0,1,2,3,4];
+            //--------->To Generate Random Number for 6th element in array from(1t05);
+            let current = [];
+            nums.push(Math.floor(Math.random()*10)%5);
+            function rand(n){
+                return (Math.random()*n) | 0
+            }
+            return function(){
+                //when current is empty
+                if(!current.length){
+                    current = nums.splice();//[...nums]
+                //Random Index from 1 to 5
+                return current.splice(rand(current.length),1)
+                }
+            }
+        }());
+
+        let imageContainer = document.getElementById("img-container");
+        //img id="i" data-ns-test src="url"
+        //append inside imagecontainer
+        for(let i=0; i<6; i++){
+            debugger
+            let [randomIndex] = getRandomNumber();
+            //console.log(current)
+            console.log(randomIndex)
+            let imageNode = document.createElement("img");
+            let testAttribute = document.createAttribute("data-ns-test");
+            testAttribute.value=`image-${randomIndex}`;
+            imageNode.setAttributeNode(testAttribute);
+            // imageNode.src= "pics[randomIndex]";
+            imageNode.setAttribute("src",pics[randomIndex])
+            imageNode.addEventListener('click',onImageClick)
+            imageContainer.appendChild(imageNode);
+        }
+
+        function onImageClick(e){
+            //style  //Value //Attribute
+            const main = document.getElementsByTagName("body")
+
+            selectedTile(e.Target.getAttribute("data-ns-test"))
+            e.Target.style.border = "2px solid blue";
+            e.Target.style["pointer-events"] = "none";
+
+            switch(selectedTile.length){
+                case 1:
+                    main[0].appendChild(getResetButton());
+                    break;
+                case 2:
+                    main[0].appendChild(verifybutton());
+                    break;
+            }
+
+            if(selectedTile.length > 2){
+                const verifybutton = document.getElementById("btn");
+                verifybutton.remove();
+            }
+            }
+        function getResetButton(){
+            const resetButton = document.createElement("button");
+            resetButton.innerHTML = "Reset";
+            const reset = document.createAttribute("id");
+            reset.value = "reset"
+            resetButton.setAttributeNode(reset);
+            resetButton.addEventListener("click",function(){
+                window.location.reload();
+            })
+            return resetButton;
+        }
+        function verifybutton(){
+            const verifyButton = document.createElement("button");
+            verifyButton.innerHTML = "Verify";
+            const verify = document.createAttribute("id");
+            verify.value = "verify"
+            verifyButton.setAttributeNode(verify);
+            verifyButton.addEventListener("click",function(){
+            
+            })
+            return resetButton;
+        }
+    </script>
+</body>
+</html>

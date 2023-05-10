@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="title">Design Page of a Payment Website</h1>
+    <div class="main-container">
+        <div class="payment-container">
+            <div class="payment-header">
+                <h2>Payment</h2>
+                <p>Complete your pro membership</p>
+            </div>
+            <div class="payment-info">
+                <h2>
+                    <span style="color: gray;">$</span>
+                    <span>899</span>
+                    <span class="usd">USD</span>
+                </h2>
+                <div class="payment-specifications">
+                    <div>
+                        <i class='fa fa-check-circle' style='color:#0a530e'></i>
+                        <span>Messaging</span>
+                    </div>
+                    <div>
+                        <i class='fa fa-check-circle' style='color:#0a530e'></i>
+                        <span>Analytics</span>
+                    </div>
+                    <div>
+                        <i class='fa fa-check-circle' style='color:#0a530e'></i>
+                        <span>Support</span>
+                    </div>
+                    <div>
+                        <i class='fa fa-check-circle' style='color:#0a530e'></i>
+                        <span>Discounts</span>
+                    </div>
+                </div>
+                <div class="knowmore">
+                    <a href="">Know more</a>
+                </div>
+            </div>
+            <div class="card-details">
+                <h1>Pay with card</h1>
+                <div>
+                    <input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="on" maxlength="19" placeholder="xxxx     xxxx     xxxx     xxxx">                </div>
+                <div class="cc-details-container">
+                    <span class = "cc-details"> mm/yy</span>
+                    <span class = "cc-details"> CVV</span>
+                </div>
+                <button class="payment">Make payment</button>
+            </div>
+        </div>
+        <div class="invoice-container">
+            <div class="invoice-header">
+                <span>Invoice</span>
+                <span>Download</span>
+            </div>
+            <div class="billing">
+                <div class="billing-main-details">
+                    <span>Pro membership</span>
+                    <span>$899</span>
+                </div>
+                <div class="billing-extra-details">
+                    <span>Platform fee</span>
+                    <span>$10</span>
+                </div>
+            </div>
+            <div class="total-amount">
+                <span>Total amount</span>
+                <span>$909</span>
+            </div>
+        </div>
+        <div class="sucess-container">
+            <i class='fa fa-check-circle fa-4x'style='color: white'></i>
+            <h1>Success</h1>
+            <p>Your payment was processed</p>
+        </div>
+        <div class="remove-container">
+            <h1>Remove?</h1>
+            <p>Please confirm the changes, you can't redo this again</p>
+            <button>Confirm</button>
+            <a href="">Take me back</a>
+        </div>
+    </div>
+</body>
+</html>

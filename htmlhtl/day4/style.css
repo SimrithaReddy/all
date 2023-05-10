@@ -1,0 +1,39 @@
+.container{
+    margin-left: 30%;
+    margin-top: 3%;
+    max-width: 40%;
+    padding: 15px 15px;
+    background-color: black;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: #ffff;
+}
+
+#pounds{
+    margin-left: 151px;
+    height: 25px;
+    max-width: 35%;
+}
+
+.box-weight{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.gm{
+    background-color: blue;
+}
+
+.kg{
+    background-color: green; 
+}
+
+.oun{
+    background-color: red;
+}
+
+h1{
+    text-align: center;
+}

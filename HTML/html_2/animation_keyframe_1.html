@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                height: 200px;
+                width: 100px;
+                animation-name: change-color;
+                animation-duration: 5s;
+                /*animation-delay: 10s;*/
+                animation-iteration-count: infinite;
+            }
+            @keyframes change-color {
+                from{
+                    background-color: red;
+                }
+                to{
+                    background-color: blue;
+                }
+            }
+            @keyframes alternate-color {
+                0%{background-color: blueviolet;}
+                25%{background-color: black;}
+                50%{background-color: aquamarine};
+                100%{background-color: aqua;}
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

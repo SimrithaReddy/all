@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+section{
+    margin-bottom: 10px;
+}
+
+body{
+    border: 2px solid gray;
+}
+

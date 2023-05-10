@@ -1,0 +1,136 @@
+:root{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+.container{
+    padding: 10x 10px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 9px;
+    width: 450px;
+    height: 410px;
+    margin-bottom: 28px;
+}
+
+.icon{
+    display: flex;
+    height: 33px;
+    flex: 1;
+}
+
+.icon-img{
+    padding-right: 0px;
+    width: 43px;
+    height: 39px;
+}
+
+.icon-date{
+    padding-left: 258px;
+    align-self: center;
+}
+
+.row{
+    margin: 10px 10px;
+}
+
+.likes{
+    padding-left: 10px;
+    margin-top: 6px;
+}
+
+.img1{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+.bold{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+.light{
+    font-weight: lighter;
+    font-size: 0.9rem;
+    margin-top: 0px;
+}
+
+.last-dot{
+    margin-right: 20px;
+}
+
+.row-last{
+    margin-top: 11px;
+    margin-bottom: 20px;
+}
+
+.container-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-row1{
+    flex: 1;
+}
+
+.container-row2{
+    align-self: center;
+}
+
+svg{
+    position: relative;
+    top: 15px;
+    height: 53px;
+    width: 120px;
+}
+
+.page-name{
+    color: #006238;
+    text-shadow: 2px 2px 5px #006238;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    position: relative;
+    top: 20px;
+}
+
+.page-img{
+    height: 85px;
+    width: 83px;
+    position: relative;
+    left: 900px;
+}
+
+.page-row{
+    display: flex;
+    height: 78px;
+}
+
+.page-child{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 85px;
+}
+
+.page{
+    border: 2px solid black;
+}
+
+
+.dot-img{
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+
+.icon-logo{
+    padding-left: 48px;
+    padding-top: 15px;
+}

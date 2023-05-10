@@ -1,0 +1,8 @@
+
+
+.video{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    max-width: 35%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+#country{
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(235, 165, 60);
+}
+
+label{
+    font-size: large;
+    font-weight: 700;
+}
+
+#gender{
+    margin-bottom: 10px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    max-width: 35%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 30%;
+    color: brown;
+}
+
+.list div{
+    width: 50px;
+    margin: 10px 10px;
+    color: brown;
+}

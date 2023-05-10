@@ -1,0 +1,26 @@
+:root{
+    font-family: 'Open Sans',sans-serif;
+    color: #fff;
+}
+body{
+    background-color: #674BB1;
+}
+.container{
+    padding:28px 36px;
+}
+
+.graphic{
+    width: 100%;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.graphic>.top{
+    height: 20px;
+    background-color: #0a2a3a;
+    padding: 6px 20px;
+}
+
+.graphic>.top>.search{
+    color: #674BB1;
+}

@@ -1,0 +1,18 @@
+.my-app{
+  max-width: 98%;
+  margin-left: 15px;
+}
+
+/* .toolbar{
+  background-color: #fff;
+} */
+
+.imagelistitem{
+  display: flex;
+  flex-direction: row;
+}
+
+span{
+  display: flex;
+  flex: 1;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Car Insurance</h1>
+        <section>
+            <label for="name"><b><i> UserName*</b></i></label>
+        <input type="text" id="name" required="true">
+        </section>
+        <section>
+            <label for="email"><b><i>Email*</b></i> </label>
+        <input type="email" id="email" required="true">
+        </section>
+        <section>
+            
+            <input type="radio" id="gender" required="true" name="sexuality">
+            <label for="gender"><b><i>Female</i></b></label>
+            <input type="radio" id="gender" required="true" name="sexuality">
+            <label for="gender"><b><i>Male</i></b></label>
+        </section>
+        <section>
+            <label for="cars"><b><i>Car Brands</i></b></label>
+        
+            <select id="cars">
+                <option value="BMW"><b><i>BMW</i></b></option>
+                <option value="Audi"><b><i>Audi</i></b></option>
+                <option value="Mercedes"><b><i>Mercede</i></b></option>
+            </select>
+            <input type="submit">
+        </section>
+
+        <section>
+            <label for="carage"><b><i>Car Age(in years)</i></b></label>
+            <input type="number" id="carage" required="true">
+        </section>
+        <section>
+            <label for="dop"><b><i>Date of Purchase</i></b></label>
+            <input type="datetime-local" id="dop" required="true">
+        </section>
+        <section>
+            <label for="password"><b><i>Password</i></b></label>
+            <input type="password" id="password" required="true">
+        </section>
+        <input type="submit" id="submit">
+    </form>
+</body>
+</html>

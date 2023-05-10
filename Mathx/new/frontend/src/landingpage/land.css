@@ -1,0 +1,46 @@
+.div-land {
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.landing {
+    background-color: white;
+     display: flex;
+}
+
+.land-txt {
+    color: green;
+    margin-left: 110px;
+    font-size: 1.4rem;
+}
+
+#btn {
+    position: relative;
+    left: 168px;
+    background: rgb(100 191 100) 0% 0% no-repeat padding-box;
+    border: 2px solid #006238;
+    border-radius: 16px;
+    height: 35px;
+    width: 60px;
+    opacity: 1;
+    font: normal normal normal 15px/20px Verdana;
+    letter-spacing: 0px;
+    color: #0b3020;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.land-img{
+    padding-left: 200px;
+    padding-top: 58px;
+    height: 489px;
+    width: 386px;
+}
+
+.land-head{
+    padding-left: 106px;
+    padding-top: 191px;
+}

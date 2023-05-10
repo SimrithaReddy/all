@@ -1,0 +1,5 @@
+            EMBEDDED HTML
+Embedded: Document inside another document 
+
+<iframe></frame>----------->internal frame
+we have built in attributes under iframe ---------->height,width,src

@@ -1,0 +1,15 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  td{
+    font-family: 'Mulish', sans-serif;
+  }
+  h1,th{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .center{
+    align-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+  }

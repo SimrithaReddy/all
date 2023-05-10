@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper_scissors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <input type="text"  class="game-number">
+        <input type="button" id="play-game" value="play-game">
+
+        <button class="Choose" value="Rock">Rock</button>
+        <button  class="Choose" value="Paper">paper</button>
+        <button class="Choose" value="Scissors">Scissors</button>
+
+    </div>
+    <br>
+    <div class="comp-choice">
+    </div>
+    <br>
+    <table id="input-table"></table>
+    <table class="points">
+        <tr>
+            <th>Rounds-Left :</th>
+            <th id="rounds-left">-</th>
+        </tr>
+        <tr >
+            <th>User-Points :</th>
+            <th id="user-points">-</th>
+        </tr>
+        <tr >
+            <th>Computer-points :</th>
+            <th id="computer-points">-</th>
+        </tr>
+
+        <tfoot>
+            <th>Game-Result:</th>
+            <th  id="game-result">-</th>
+        </tfoot>
+    </table>
+
+<div class="new-game">
+    <button id="btn1">NewGame</button>
+</div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

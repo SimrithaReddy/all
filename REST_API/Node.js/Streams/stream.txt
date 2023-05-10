@@ -1,0 +1,21 @@
+What are Streams?
+ Streams are Objects that let u read data from a source or write
+ data to a destination in continuous fashion
+ 
+types of Streams-
+ Readable - Stream which is uses for read Operation.
+ Writable - Stram which is used for write operation.
+ Duplex - Stream which can be used for both reading and writing purpose.
+ Transform -A type of duplex stream where the output is computed based on input.
+
+ 
+Each type of stream is an EventEmitter instance and throws several events
+ at different instance of times.For example
+ 
+ data -This event is fired when there is data available to read.
+ 
+ end -This event is fired when there is no more data to read.
+ 
+ error -This event is fired when there is any error receiving or writing to read.
+
+ finish -This event is fired when all the data has been flushed to underlying system.

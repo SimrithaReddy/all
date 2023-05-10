@@ -1,0 +1,43 @@
+AJS TOPICS COVERED IN SESSION
+
+Js inheritance
+Prototypes, prototype chain & prototypical inheritance
+JS Multilevel inheritancex
+Property Descriptors
+Constructor Prototypes
+Protoype vs instance member
+
+Iterating Instance and Prototype Members
+Avoid Extending the Built-in Objects
+Creating own Prototypical inheritance
+Resetting the constructor
+Calling the super constructor
+Intermediate function inheritance
+
+
+Document Object Model
+DOM Manipulation,
+DOM model,
+DOM Selectors,
+DOM style maipulation
+
+DOM Manipulation, DOM Events
+Creating and Adding html elements to page
+Callback function
+
+JS Operators(All),
+ES6 Classes
+The this Keyword
+Getters & Setters
+
+
+Static Methods,PRIVATE, PUBLIC
+CLOSURES
+TYPE COERCION
+Inheritance
+Method Overriding
+JSON
+Promises
+fetch
+Ajax,
+POSTMAN Intro

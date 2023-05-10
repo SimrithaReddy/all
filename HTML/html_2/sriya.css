@@ -1,0 +1,26 @@
+.text-container-description {
+    font-family: "Roboto";
+    color: #9aa5b1;
+}
+
+.text-container-heading {
+    font-family: "Roboto";
+    color: "#323f4b";
+    font-size: 25px;
+}
+
+.text-container {
+    padding: 15px;
+}
+
+.embed-videos-container {
+    padding: 15px;
+}
+
+.image {
+    margin-right: 10px;
+}
+
+.video {
+    margin-right: 10px;
+}

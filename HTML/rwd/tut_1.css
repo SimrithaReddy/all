@@ -1,0 +1,86 @@
+@import url('http://fonts.cdnfonts.com/css/avenir');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    height: 100vh;
+    background: transparent linear-gradient(136deg, #FCF3F3 0%, #FFFFFF 49%, #FAF1F0 100%) 0% 0% no-repeat padding-box;
+    ;
+    opacity: 1;
+}
+
+p {
+    font-family: 'Avenir', sans-serif;
+}
+
+.side-bar {
+    letter-spacing: 6px;
+    font-size: 20px;
+    color: #5F5A5A;
+    margin-bottom: 1px;
+}
+
+.down-bar {
+    letter-spacing: 19.2px;
+    font-size: 64px;
+}
+
+.para {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #9A6B69;
+    opacity: 1;
+}
+
+.boldness {
+    font-weight: light;
+    color: #D2A1A2;
+}
+
+.bold {
+    font-weight: medium;
+    color: #393334;
+}
+
+.circle {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #E7A09E;
+    border-radius: 46px;
+    opacity: 1;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-1 {
+    width: 588px;
+    height: 653px;
+    margin: 0px;
+}
+
+.circle-cont {
+    display: flex;
+    padding-left: 160px;
+}
+
+.down-bar {
+    padding-bottom: 2px;
+}
+
+.we {
+    padding-left: 190px;
+    margin-top: 90px;
+    text-align: center;
+    margin-right: 87px;
+}

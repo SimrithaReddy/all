@@ -1,0 +1,25 @@
+form{
+    justify-content: center;
+    border: 1px solid blue;
+
+}
+
+section{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+#submit{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+body{
+    margin: 100px 200px;
+}

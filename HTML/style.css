@@ -1,0 +1,11 @@
+.text{
+    max-width: 600px;
+    border-left: 8px solid rgb(2, 61, 2);
+    background-color: #f8fffe;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+class{
+    text-align: center;
+}

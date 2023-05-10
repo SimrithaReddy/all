@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    height: 100vh;
+    background-color: #eee;
+    overflow: hidden;
+    line-height: 0.8;
+}
+
+.container {
+    width: 60%;
+    height: 100vh;
+    margin: 1% auto;
+}
+
+.container > .card:first-child {
+    margin-bottom: 1rem;
+}
+
+.card {
+    height: 50%;
+}
+
+.card > div {
+    width: 50%;
+}
+
+.card > div:last-child {
+    padding: 5rem;
+}
+
+.card > div:first-child {
+    background-color: #64c164;
+}
+
+.container > .card:first-child > .content > *:not(.btn) {
+    margin-bottom: 2.5rem;
+}
+
+.container > .card > .content > p {
+    line-height: 1.2;
+}
+
+.container > .card:last-child > .content > *:not(.btn) {
+    margin-bottom: 2rem;
+}
+
+.container > .card > .image {
+    position: relative;
+}
+
+.container > .card:first-child > .image > img {
+    width: 110%;
+    height: 120%;
+    position: absolute;
+    top: -30%;
+    left: -4%;
+}
+
+.container > .card:last-child > .image > img {
+    width: 110%;
+    height: 80%;
+    position: absolute;
+    right: -5%;
+    bottom: 10%;
+}
+
+.card {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+    height: 48%;
+}
+
+.heading {
+    font-size: 4.5rem;
+}
+
+.desc {
+    font-size: 1.6rem;
+}
+
+.btn {
+    border: none;
+    background-color: #64c164;
+    color: #fff;
+    padding: 2rem 6rem;
+    border-radius: 100px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+.card{
+    display: flex;
+}
+#column1{
+    background-color: green;
+    width: 25%;
+  height: 40%;
+   position: relative;
+    top: 50px;
+    left: 30px;
+}
+#img1{
+    height: 105%;
+    width: 115%;
+    position: relative;
+    top: -60px;
+   left: -15px;
+    text-align: center;
+    
+}
+#column2{
+    background-color: whitesmoke;
+     width: 85%;
+     height: 415px;
+   margin-top: 50px;
+  margin-left: 10px;
+}
+.button{
+        text-align: center;
+ }
+.content{
+margin-top: 5%;
+}
+button{
+    border: 1px solid white;
+    border-radius:20px;
+        background-color: green;
+    padding: 10px;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 10px;
+   
+}
+.row2{
+    background-color: green;
+    width: 25%;
+    height: 400px;;
+    position: relative;
+    top: 100px;
+    left: 30px;
+  
+}
+#img2{
+    height: 70%;
+    width: 120%;
+    position: relative;
+    top: 60px;
+    left: -15px;
+     text-align: center;
+}
+#rowcolumn2{
+    background-color: whitesmoke;
+     width: 85%;
+     height: 400px;
+  margin-top: 100px;
+     margin-left: 30px;
+}
+button:hover{
+    background-color: orangered;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Clock</title>
+</head>
+
+<body>
+    <div class="clock">
+        <div class="hand hour" data-hand-hour></div>
+        <div class="hand minute" data-hand-minute></div>
+        <div class="hand second" data-hand-second></div>
+        <div class="number number1">1</div>
+        <div class="number number2">2</div>
+        <div class="number number3">3</div>
+        <div class="number number4">4</div>
+        <div class="number number5">5</div>
+        <div class="number number6">9</div>
+        <div class="number number7">7</div>
+        <div class="number number8">8</div>
+        <div class="number number9">9</div>
+        <div class="number number10">10</div>
+        <div class="number number11">11</div>
+        <div class="number number12">12</div>
+    </div>
+    <div class="number-clock">
+        <div data-time class="digi-clock"></div>
+        <div class="list">
+            <ul class="sec-header">
+                <li>
+                    Hours
+                </li>
+                <li>
+                    Minutes
+                </li>
+                <li>
+                    Seconds
+                </li>
+            </ul>
+            <form action="" method="post" id="addDate">
+                <input type="number" min="0" max="12" name="hours" id="hours" required>
+                <input type="number" min="0" max="59" name="minutes" id="minutes" required>
+                <input type="number" min="0" max="59" name="seconds" id="seconds" required>
+                <select name="" id="ampm" class="ampm">
+                    <option value="0">AM</option>
+                    <option value="1">PM</option>
+                </select>
+                <input type="submit" id="submit" value="Add alaram">
+            </form>
+        </div>
+        <div class="alaram-list">
+        </div>
+    </div>
+</body>
+
+</html>

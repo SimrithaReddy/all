@@ -1,0 +1,80 @@
+#include <bits/stdc++.h>
+
+#define For(i,x,y) for(int i=x;i<y;i++)
+
+#define ForD(i,x,y) for(int i=x;i>=y;i--)
+
+#define pb push_back
+
+#define ll long long
+
+
+ 
+
+using namespace std;
+
+
+ 
+
+int main(){
+
+    ll n,x,res=0;cin>>n;
+
+    vector<ll> v1,v2;
+
+    For(i,0,n){
+
+        cin>>x;
+
+        res+=abs(x-i-1);
+
+        x-=(i+1);
+
+        if(x==0){
+
+            v1.pb(i+1);
+
+            v2.pb(i+1);
+
+        }else if(x<0){
+
+            v1.pb(i+1);
+
+            v2.pb(i+x+1);
+
+        }else{
+
+            v1.pb(i+x+1);
+
+            v2.pb(i+1);
+
+        }
+
+    }
+
+    For(i,1,n){
+
+        if(v1[i]>v1[i-1]) v1[i]=v1[i-1];
+
+    }
+
+    ForD(i,n-2,0){
+
+        if(v2[i]<v2[i+1]) v2[i]=v2[i+1];
+
+    }
+
+    ll mx=0;
+
+    For(i,0,n){
+
+        mx=max(mx,(v2[i]-v1[i])*2);
+
+    }
+
+    cout<<mx+res;
+
+    return 0;
+
+}
+

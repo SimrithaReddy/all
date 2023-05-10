@@ -1,0 +1,27 @@
+img{
+    background-color: rgb(129, 172, 129);
+    height: 250px;
+    width: 200px;
+    margin: 2px rgb(129, 172, 129);
+    margin-top: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    height: 286px;
+    width: 600px;
+}
+.text{
+    background-color: rgb(241, 217, 217);
+    height: 250px;
+    width: 300px;
+    margin-bottom: 2px rgb(241, 217, 217);
+    margin-top: 10px;
+    text-align: center;
+}
+h5{
+    display: inline;
+    border: 1px solid rgb(129, 172, 129);
+    border-radius: 10%;
+}
